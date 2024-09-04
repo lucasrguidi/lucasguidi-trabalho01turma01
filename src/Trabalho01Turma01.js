@@ -47,7 +47,7 @@ class GerenciadorDeTarefas {
     listarTarefasPendentes() {
         return this.tarefas.filter(tarefa => !tarefa.concluida);
     }
-
+''
     removerTarefasConcluidas() {
         this.tarefas = this.tarefas.filter(tarefa => !tarefa.concluida);
     }
